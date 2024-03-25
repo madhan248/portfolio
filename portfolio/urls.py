@@ -24,7 +24,7 @@ class HealthCheck(APIView):
     def get(self, request, *args, **kwargs):
         return Response({
                     "status": HTTP_200_OK,
-                    "message": "Page Not Found"
+                    "message": "Success"
                 },HTTP_200_OK)
 
 class NewApi(APIView):
